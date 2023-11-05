@@ -49,7 +49,7 @@ const Footer = () => {
           <Col lg='3'>
             <div className="logo">
               <img src={logo} alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem possimus </p>
+              <p>Stay connected and follow us on social media for daily doses of travel inspiration and updates.</p>
               <div className='social__links d-flex align-items-center gap-4'>
                 <span>
                   <Link to='#'><i class="ri-youtube-fill"></i></Link>
