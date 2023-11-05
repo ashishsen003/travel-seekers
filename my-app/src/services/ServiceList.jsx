@@ -9,17 +9,17 @@ const servicesData = [
     {
         imgUrl: weatherImg,
         title: 'Calculate Weather',
-        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nesciunt impedit'
+        desc: 'Stay informed with up-to-the-minute weather updates for your location, anytime, anywhere.'
     },
     {
         imgUrl: guideImg,
         title: 'Best Tour Guide',
-        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nesciunt impedit'
+        desc: 'Your key to the best tour experience, with knowledgeable guides and insider tips for unforgettable adventures.'
     },
     {
         imgUrl: customizationImg,
         title: 'Customization',
-        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nesciunt impedit'
+        desc: 'Tailor your journey to perfection with our seamless customization options, ensuring every detail fits your desires.'
     }
 ]
 

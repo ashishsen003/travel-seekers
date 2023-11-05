@@ -12,17 +12,17 @@ const tours = [
     title: "Westminister Bridge",
     city: "London",
     distance: 300,
-    price: 99,
+    price: 199,
     maxGroupSize: 10,
     desc: "this is the description",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Michel",
         rating: 4.6,
       },
       {
         name: "Ashish Kumar",
-        rating: 4.1,
+        rating: 5,
       },
     ],
     avgRating: 4.5,
@@ -34,13 +34,17 @@ const tours = [
     title: "Bali, Indonesia",
     city: "Indonesia",
     distance: 400,
-    price: 99,
+    price: 149,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
       {
         name: "jhon doe",
         rating: 4.6,
+      },
+      {
+        name: "Ashish Kumar",
+        rating: 4.1,
       },
     ],
     avgRating: 4.5,
@@ -99,32 +103,35 @@ const tours = [
     ],
     avgRating: 4.5,
     photo: tourImg05,
-    featured: false,
+    featured: true,
   },
   {
     id: "06",
     title: "Cherry Blossoms Spring",
     city: "Japan",
     distance: 500,
-    price: 99,
+    price: 249,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
       {
         name: "jhon doe",
         rating: 4.6,
+      },{
+        name: "Ashish Kumar",
+        rating: 4.3,
       },
     ],
     avgRating: 4.5,
     photo: tourImg06,
-    featured: false,
+    featured: true,
   },
   {
     id: "07",
     title: "Holmen Lofoten",
     city: "France",
     distance: 500,
-    price: 99,
+    price: 199,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -132,10 +139,14 @@ const tours = [
         name: "jhon doe",
         rating: 4.6,
       },
+      {
+        name: "Ashish Kumar",
+        rating: 4.8,
+      },
     ],
     avgRating: 4.5,
     photo: tourImg07,
-    featured: false,
+    featured: true,
   },
   {
     id: "08",
@@ -146,14 +157,14 @@ const tours = [
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
+      // {
+      //   name: "jhon doe",
+      //   rating: 4.6,
+      // },
     ],
     avgRating: 4.5,
     photo: tourImg03,
-    featured: false,
+    featured: true,
   },
 ];
 

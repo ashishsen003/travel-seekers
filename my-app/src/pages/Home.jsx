@@ -86,8 +86,7 @@ const Home = () => {
                 <div className="experience__content">
                   <Subtitle stbtitle={'Experince'} />
                   <h2>With our all experience <br /> we will server you</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing <br />
-                      deleniti earum pariatur laudantium ipsum in doloremque 
+                  <p>Backed by 15 years of experience, we've crafted over 12,000 successful trips and cultivated a family of 2,000+ regular clients. Our dedication and expertise ensure your journey is a remarkable one. 
                   </p>
                 </div>
                 <div className="counter__wrapper d-flex align-items-center gap-5 ">
