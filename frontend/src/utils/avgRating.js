@@ -3,7 +3,7 @@ const calculateRating = reviews =>{
     const avgRating = totalRating === 0 ? '' : totalRating === 1 ? totalRating : (totalRating / reviews?.length).toFixed(1)
 
     return {
-        totalRating, avgRating
+        totalRating, avgRating,reviews
     }
 }
 
