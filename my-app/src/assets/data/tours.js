@@ -14,7 +14,7 @@ const tours = [
     "distance": 300,
     "price": 199,
     "maxGroupSize": 10,
-    "desc": "This is the description",
+    "desc": "Experience the vibrant Rio Carnival with samba parades and colorful costumes.",
     "reviews": [
       {
         "name": "Michel",
@@ -36,7 +36,7 @@ const tours = [
     "distance": 400,
     "price": 149,
     "maxGroupSize": 8,
-    "desc": "This is the description",
+    "desc": "Explore contemporary art at the prestigious Venice Biennale.",
     "reviews": [
       {
         "name": "John Doe",
@@ -58,7 +58,7 @@ const tours = [
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "This is the description",
+    "desc": "Explore the diverse ecosystems of the Amazon rainforest.",
     "reviews": [],
     "avgRating": 4.5,
     "photo": tourImg03,
@@ -71,7 +71,7 @@ const tours = [
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "This is the description",
+    "desc": "Enjoy a scenic cruise along the picturesque canals of Amsterdam.",
     "reviews": [
       {
         "name": "John Doe",
@@ -89,7 +89,7 @@ const tours = [
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "This is the description",
+    "desc": "Cruise through the beautiful Mediterranean, visiting multiple ports.",
     "reviews": [
       {
         "name": "John Doe",
@@ -107,7 +107,7 @@ const tours = [
     "distance": 500,
     "price": 249,
     "maxGroupSize": 8,
-    "desc": "This is the description",
+    "desc": "Discover the natural wonders of Yellowstone National Park.",
     "reviews": [
       {
         "name": "John Doe",
@@ -129,7 +129,7 @@ const tours = [
     "distance": 500,
     "price": 199,
     "maxGroupSize": 8,
-    "desc": "This is the description",
+    "desc": "Witness the incredible wildlife of the Serengeti on an African safari.",
     "reviews": [
       {
         "name": "John Doe",
@@ -151,7 +151,7 @@ const tours = [
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "This is the description",
+    "desc": "Experience the vibrant Rio Carnival with samba parades and colorful costumes.",
     "reviews": [],
     "avgRating": 4.5,
     "photo": tourImg03,
@@ -164,7 +164,7 @@ const tours = [
   //   "distance": 100,
   //   "price": 99,
   //   "maxGroupSize": 5,
-  //   "desc": "This is the description",
+  //   "desc": "Explore the breathtaking landscapes of the Grand Canyon on a thrilling adventure.",
   //   "reviews": [
   //     {
   //       "name": "John Doe",
@@ -186,7 +186,7 @@ const tours = [
   //   "distance": 500,
   //   "price": 99,
   //   "maxGroupSize": 8,
-  //   "desc": "This is the description",
+  //   "desc": "Explore the breathtaking landscapes of the Grand Canyon on a thrilling adventure.",
   //   "reviews": [
   //     {
   //       "name": "Michael Brown",
