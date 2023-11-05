@@ -1,0 +1,81 @@
+
+
+
+.booking{
+padding: 2rem;
+border-radius: .5rem;
+border:1px solid rgb(168, 166, 166);
+position: sticky;
+top: 80px;
+}
+.booking_top h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.booking_top h3 span{
+    font-size: 1.1rem;
+    font-weight: 400px;
+    color: var(--text-color);
+}
+
+.booking_top span{
+    font-size: 1.1rem;
+    font-weight: 600px;
+    color: var(--text-color);
+}
+
+.booking_top span i{
+    color: var(--secondary-color);
+}
+
+.booking_top{
+    padding-top: 2rem;
+    border-bottom: 1px solid rgb(245, 234, 234);
+}
+
+.booking_form{
+    padding-top: 2rem;
+}
+.booking_form h5{
+    margin-bottom: 1rem;
+}
+.booking_form input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    color: var(--heading-color);
+    font-size: 1ren;
+    break-before: 1px solid rgb(68, 67, 67);
+    border: none;
+}
+.booking_form input:focus{
+    outline: none;
+}
+
+.booking_info-form{
+    padding: 1rem;
+    border: 1px solid rgb(147, 144, 144);
+}
+
+.booking_bottum li{
+    align-items:center ;
+    justify-content: space-between;
+    display: flex;
+}
+
+.booking_bottum li h5 ,.booking_bottum li span{
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.booking_bottum{
+    margin-top: 1rem;
+}
+
+.total h5, .total span{
+    color: var(--heading-color) !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+
+}

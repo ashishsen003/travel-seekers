@@ -6,6 +6,7 @@ import { Col, Container, Row, Form ,ListGroup  } from "reactstrap";
 import calculateAvgRating from "./../utils/avgRating";
 import avatar from "../assets/images/avatar.jpg"
 import { Booking } from "../components/Booking/Booking";
+import Newsletter from "../shared/Newsletter";
 
 
 const TourDetails = () => {
@@ -144,6 +145,7 @@ const TourDetails = () => {
           </Row>
         </Container>
       </section>
+      <Newsletter/>
     </>
   );
 };
