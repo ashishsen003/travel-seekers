@@ -123,6 +123,9 @@ const Tours = () => {
     dispatch(getTour(params));
   }, [dispatch, searchParams, page]);
 
+  console.log(tours);
+
+
   return (
     <>
       <CommonSection title="All Tours" />

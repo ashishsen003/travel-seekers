@@ -14,7 +14,7 @@ export const Thankyou = () => {
             <h1 className='mb-3 fw-semibold'>Thank you</h1>
             <h3 className='mb-4'>Your tour is booked.</h3>
 
-            <Button className="btn primary_btn w-25">
+            <Button className="btn primary_btn w-25" style={{backgroundColor: '#1071DB'}}>
                 <Link to="/home">Back to Home</Link>
             </Button>
             </div>

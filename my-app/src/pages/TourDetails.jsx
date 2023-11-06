@@ -13,7 +13,7 @@ const TourDetails = () => {
   const { id } = useParams();
   const reviewmsgRef=useRef('')
   const [tourRating,setTourRating]=useState(null)
-  const tour = tourData.find((tour) => tour.id=== id);
+  const tour = tourData.find((tour) => tour.id == id);
 
   const option ={day:'numeric', month:'long',year:'numeric'}
 
@@ -28,6 +28,8 @@ const TourDetails = () => {
     distance,
     address,
   } = tour;
+
+  console.log(tour);
 
   const submitHandle=(e)=>{
     e.preventDefault();

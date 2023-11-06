@@ -17,7 +17,7 @@ export const Booking = ({ tour, avgRating, totalRating }) => {
   })
 const navigate=useNavigate()
   const handleChange = (e) => {
-    setCredential(prev=>({...prev,[e.target.id]:e.target.value}))
+    setCredential(prev=>({...prev,[+(e.target.id)]:e.target.value}))
   };
 
   const serviceFee=10;
@@ -98,7 +98,7 @@ navigate('/thank-you')
           </ListGroupItem>
           
         </ListGroup>
-        <Button className="btn primary_btn w-10 mt-4" onClick={handleClick}>Book Now</Button>
+        <Button className="btn primary_btn w-10 mt-4" style={{backgroundColor: '#1071DB'}} onClick={handleClick}>Book Now</Button>
       </div>
     </div>
   );
