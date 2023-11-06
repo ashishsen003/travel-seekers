@@ -17,7 +17,7 @@ export const Booking = ({ tour, avgRating, totalRating }) => {
   })
 const navigate=useNavigate()
   const handleChange = (e) => {
-    setCredential(prev=>({...prev,[+(e.target.id)]:e.target.value}))
+    setCredential(prev=>({...prev,[e.target.id]:e.target.value}))
   };
 
   const serviceFee=10;
