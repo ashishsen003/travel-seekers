@@ -32,7 +32,7 @@ export const Login = () => {
         console.log("Login Successful");
         setTimeout(() => {
           setShowSuccess(false);
-          navigate(location.state, { replace: true });
+          navigate("/tours");
         }, 4000); 
       });      
 
