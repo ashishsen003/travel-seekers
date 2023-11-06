@@ -97,6 +97,8 @@ import { useSearchParams } from "react-router-dom";
 import { getTour } from "../Redux/ToursReducer/action";
 import { Sidebar } from "../components/Sidebar";
 import Pagination from "./Pagination"; 
+import loading from '../assets/loading.gif'
+import { Img } from "@chakra-ui/react";
 
 const Tours = () => {
   const [page, setPage] = useState(1);
@@ -123,8 +125,8 @@ const Tours = () => {
     dispatch(getTour(params));
   }, [dispatch, searchParams, page]);
 
-  console.log(tours);
-
+  // console.log(tours);
+  
 
   return (
     <>
@@ -139,7 +141,7 @@ const Tours = () => {
       </section>
       <section className="pt-0">
         <Container>
-          {isLoading && <h1>Loading...</h1>}
+          {isLoading && <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'  }}> <img src={loading} style={{width: '20%'}} /> </div>}
           {isError && <h1>Errorrrr...</h1>}
           <Row>
             {!isLoading && !isError && tours?.map((tour) => (
@@ -150,11 +152,11 @@ const Tours = () => {
           </Row>
           <Row>
             <Col lg="12"></Col>
-            <Pagination
+            {!isLoading && <Pagination
               totalPages={totalPages}
               currentPage={page}
               setCurrentPage={setPage}
-            />
+            />}
           </Row>
         </Container>
       </section>
