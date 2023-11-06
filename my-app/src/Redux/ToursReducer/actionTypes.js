@@ -1,0 +1,3 @@
+export const TOUR_REQUEST = "TOUR_REQUEST";
+export const TOUR_SUCCESS = "TOUR_SUCCESS";
+export const TOUR_FAILURE = "TOUR_FAILURE";

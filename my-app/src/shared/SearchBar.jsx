@@ -1,19 +1,42 @@
-import React, {useRef} from 'react'
-import './search-bar.css'
-import {Col, Form, FormGroup} from 'reactstrap'
+import React, {useRef, useState} from 'react'
+import './search-bar.css';
+import { useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
+import {
+    Alert,
+    AlertIcon,
+    AlertTitle,
+  } from '@chakra-ui/react'
+
+import {Col, Form, FormGroup} from 'reactstrap';
 
 const SearchBar = () => {
-    const locationRef = useRef('')
+    const [searcParams, setSearchParams] = useSearchParams();
+    // const [q, setq] = useState();
+    const [title, setTitle] = useState(searcParams.get('q') || '');
+
+    // const locationRef = useRef('')
     const distanceRef = useRef(0)
     const maxGroupSizeRef = useRef(0)
     
-    const searchHandler = ()=>{
-        const location = locationRef.current.value
+    const searchHandler = (e)=>{
+    
+        // const location = locationRef.current.value
         const distance = distanceRef.current.value
         const maxGroupSize = maxGroupSizeRef.current.value
 
-        if(location === '' || distance === '' || maxGroupSize === ''){
-            alert('All feild are required')
+        if(title === '' && distance === '' && maxGroupSize === ''){
+
+                <Alert status="error">
+                    <AlertIcon />
+                    <AlertTitle>Fill the Fields</AlertTitle>
+                </Alert>
+        }
+        else if(title !== "") {
+            const params = {
+                q:title
+              }
+              setSearchParams(params);          
         }
     }
 
@@ -28,7 +51,7 @@ const SearchBar = () => {
                     </span>
                     <div>
                         <h5>Location</h5>
-                        <input type="text" placeholder='Where are you going?' ref={locationRef} />
+                        <input type="text" name='city' placeholder='Where are you going?' value={title} onChange={(e) => setTitle(e.target.value)} />
                     </div>
                 </FormGroup>
                 <FormGroup className='d-flex gap-3 form__group form__group-fast'>

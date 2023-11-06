@@ -1,5 +1,6 @@
 .tour__img img{
     width: 100%;
+    height: 250px;
     border-radius: 5px 5px 0 0;
 }
 
@@ -86,5 +87,10 @@
 
 .booking__btn a:hover{
     color: #fff;
+}
+
+.tour__card {
+    margin: 10px 3px;
+    height:400px;
 }
 
