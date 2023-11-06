@@ -12,8 +12,8 @@ Travel Seekers is a destination booking website that allows users to explore var
 The website features the following pages:
 1. Home Page
 ![Homepage](https://github.com/ashishsen003/quixotic-snail-9802/assets/112822104/7c6f1361-6939-4dd6-b992-37e798579997)
-![Homepage Gallery](https://github.com/ashishsen003/quixotic-snail-9802/assets/112822104/42be0569-2bae-4556-9205-7623df41585f)
 ![Homepage FeaturedTour Section](https://github.com/ashishsen003/quixotic-snail-9802/assets/112822104/55b7d7b8-a148-4e71-8e14-182b5699ae61)
+![Homepage Gallery](https://github.com/ashishsen003/quixotic-snail-9802/assets/112822104/42be0569-2bae-4556-9205-7623df41585f)
 
 
 3. Single Tour Details Page
