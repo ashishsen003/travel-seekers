@@ -1,6 +1,3 @@
-# quixotic-snail-9802
-Certainly! Here's a README file for your project "Travel Seekers":
-
 # Travel Seekers
 
 Travel Seekers is a destination booking website that allows users to explore various destinations, sort them according to their preferences, and book their dream vacations. Users can register and log in to the platform, providing a personalized experience for planning their next adventure.
