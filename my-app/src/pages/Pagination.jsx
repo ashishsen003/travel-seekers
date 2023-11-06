@@ -15,16 +15,22 @@ const Pagination = ({ totalPages, currentPage, setCurrentPage }) => {
   };
 
   const buttonStyle = {
-    backgroundColor: "blue",
+    backgroundColor: "#1071DB",
     color: "white",
     padding: "5px 10px",
     border: "1px solid lightblue",
     margin: "5px",
     cursor: "pointer",
+    borderRadius:"5px",
+    width: '3rem',
+    marginTop: '2rem',
+    height: '3rem',
+    fontSize: '20px'
+
   };
 
   const activeButtonStyle = {
-    backgroundColor: "pink",
+    backgroundColor: "#0C264C",
   };
 
   return (

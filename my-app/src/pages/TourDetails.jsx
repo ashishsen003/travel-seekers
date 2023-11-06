@@ -13,7 +13,16 @@ const TourDetails = () => {
   const { id } = useParams();
   const reviewmsgRef=useRef('')
   const [tourRating,setTourRating]=useState(null)
-  const tour = tourData.find((tour) => tour.id=== id);
+  const tour = tourData.find((tour) => (tour.id)== (id));
+
+ 
+
+    // Check if the tour is found
+    // if (!tour) {
+    //   // Handle the case where the tour is not found
+    //   return <p>Tour not found</p>;
+    // }
+  
 
   const option ={day:'numeric', month:'long',year:'numeric'}
 
