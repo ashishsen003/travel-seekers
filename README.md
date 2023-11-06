@@ -11,10 +11,11 @@ Travel Seekers is a destination booking website that allows users to explore var
 ## Pages
 The website features the following pages:
 1. Home Page
-2. Single Tour Details Page
-3. All Tours Featured Page
-4. Login Page
-5. Signup Page
+![Alt text](https://github.com/ashishsen003/quixotic-snail-9802/blob/main/my-app/src/assets/ScreenShot/All%20Tour%20sorting%20sction.png)
+3. Single Tour Details Page
+4. All Tours Featured Page
+5. Login Page
+6. Signup Page
 
 ## Tech Stack
 - JavaScript
