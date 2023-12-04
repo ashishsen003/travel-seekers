@@ -77,4 +77,5 @@ If you'd like to contribute to Travel Seekers, please follow these guidelines:
 
 ## License
 This project is open-source.
+
 Feel free to reach out to the team members listed above for any questions or collaboration opportunities. Happy traveling with Travel Seekers!
