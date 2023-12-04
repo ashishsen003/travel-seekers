@@ -1,16 +1,16 @@
 # Travel Seekers
 
-## Vercel Link: https://my-app-six-coral.vercel.app/home
+### Vercel Link: https://my-app-six-coral.vercel.app/home
 
 Travel Seekers is a destination booking website that allows users to explore various destinations, sort them according to their preferences, and book their dream vacations. Users can register and log in to the platform, providing a personalized experience for planning their next adventure.
 
-## Team Members
+### Team Members
 - Ashish Kumar - [GitHub](https://github.com/ashishsen003)
 - Ashwini Titarmare - [GitHub](https://github.com/ashwini2704)
 - Supriya Kumari - [GitHub](https://github.com/supriyatech06)
 - Nirmal Patel - [GitHub](https://github.com/nirmalpatel26)
 
-## Pages
+### Pages
 The website features the following pages:
 1. Home Page
 ![Homepage](https://github.com/ashishsen003/quixotic-snail-9802/assets/112822104/7c6f1361-6939-4dd6-b992-37e798579997)
