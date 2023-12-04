@@ -1,6 +1,6 @@
 # Travel Seekers
 
-## Netlify Link: https://my-app-six-coral.vercel.app/home
+## Vercel Link: https://my-app-six-coral.vercel.app/home
 
 Travel Seekers is a destination booking website that allows users to explore various destinations, sort them according to their preferences, and book their dream vacations. Users can register and log in to the platform, providing a personalized experience for planning their next adventure.
 
@@ -62,9 +62,6 @@ To run the project locally, follow these steps:
    ```bash
    npm start
    ```
-
-## Deployment
-The project is deployed on Vercel. You can access it [here](https://my-app-six-coral.vercel.app/home).
 
 ## Backend Server
 The backend server is hosted at [https://destination-api00.onrender.com/](https://destination-api00.onrender.com/). It provides the following endpoints:
