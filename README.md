@@ -63,8 +63,6 @@ To run the project locally, follow these steps:
    npm start
    ```
 
-The project will be available at `http://localhost:3000`.
-
 ## Deployment
 The project is deployed on Vercel. You can access it [here](https://my-app-six-coral.vercel.app/home).
 
